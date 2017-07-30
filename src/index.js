@@ -21,7 +21,6 @@ const appElement = document.getElementById('root');
 const history = syncHistoryWithStore(browserHistory,store);
 
 
-
 ReactDOM.render(
     <Provider store={store}>
         <div>
